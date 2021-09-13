@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.intro{
+    background-color: #23424A;
+    color: white;
+    padding: 5em 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.row{
+    display: flex;
+}
+.col{
+    width: 100%;
+}
+
+.col + .col{
+    margin-left: 30px;
+}
+
+
+.intro-content{
+    width: 60%;
+}
+
+h1{
+    font-size: 3rem;
+    /* font-weight: 900; */
+}
+
+.intro-p{
+    font-size: 1.3rem;
+    /* font-weight: 400;
+    font-style: normal;
+     */
+}
+
+.btn-cta{
+    background-color: #38CFD9;
+    color: #23424A;
+    border: none;
+    border-radius: 2em;
+    padding: 1em 3em;
+    font-weight: 900;
+    
+}
+
+.benefits{
+    padding: 3em 0;
+    text-align: center;
+}
+
+.benefits h2{
+    color: #87629A;
+}
+
+.about{
+    background-color: #136C72;
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+}
+
